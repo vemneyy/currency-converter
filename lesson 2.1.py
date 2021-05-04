@@ -13,8 +13,8 @@
 # print(name.count('И')) # Считает указанный символ
 # print(name.split()) # Делит значение перемменой по пробелам
 #
-# .ljust()
-# .rjust()
+# .ljust() # погуглить
+# .rjust() # погуглить
 #
 # name = 'Иван'
 # age = 30
@@ -28,3 +28,4 @@
 # numbers = [10, 20, 30]
 # numbers.append(50)
 # print(numbers)
+
