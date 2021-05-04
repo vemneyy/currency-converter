@@ -25,7 +25,16 @@
 # result = f'{name}'
 # print(result)
 
-# numbers = [10, 20, 30]
+# numbers = (10, 20, 30)
 # numbers.append(50)
 # print(numbers)
 
+numbers = (10, 20, 30, 40, 50)
+
+# x = 0
+# while x < len(numbers):
+#     print(numbers[x])
+#     x = x + 1
+
+for num in numbers:
+    print(num)
