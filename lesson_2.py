@@ -28,13 +28,42 @@
 # numbers = (10, 20, 30)
 # numbers.append(50)
 # print(numbers)
-
-numbers = (10, 20, 30, 40, 50)
-
+#
+# numbers = (10, 20, 30, 40, 50)
+#
+# humans = ['Alex', 'Ivan', 'Tamara']
+#
 # x = 0
 # while x < len(numbers):
 #     print(numbers[x])
 #     x = x + 1
 
-for num in numbers:
-    print(num)
+# for num in numbers:
+#     print(num)
+#
+# for i in humans:
+#     print('Привет', i)
+#
+#  print('Привет\n' * 5)
+
+# man = {'name': 'Ivan', 'age': 54, 'money': 1337}
+#
+# man['date'] = [1, 2, 3, 4]
+# print(man['name'])
+# print(man['age'])
+# print(man['money'])
+# print(man['date'])
+# print(man.get('nam'))
+#
+# for key, val in man.items():
+#     print(key, '-', val)
+
+# my_set = {1, 1, 2, 3, 3, 2, 2, 1, 1, 1, 1, 1, 4, 4, 5}
+# print(my_set)
+# print(len(my_set))
+
+
+
+
+
+
