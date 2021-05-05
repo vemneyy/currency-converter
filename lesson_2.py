@@ -58,9 +58,9 @@
 # for key, val in man.items():
 #     print(key, '-', val)
 
-# my_set = {1, 1, 2, 3, 3, 2, 2, 1, 1, 1, 1, 1, 4, 4, 5}
-# print(my_set)
-# print(len(my_set))
+my = {1, 1, 2, 3, 3, 2, 2, 1, 1, 1, 1, 1, 4, 4, 5}
+print(my)
+print(len(my))
 
 
 
