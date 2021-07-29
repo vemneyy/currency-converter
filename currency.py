@@ -14,6 +14,8 @@ if cur == 1:
     convert_usd = soup_usd.findAll('font', {'color': 'Red'})
     res_usd = convert_usd[0].text
     final_usd = float(res_usd)
+    cash = money / final_usd
+    print("Ваши рубли в долларах:", round(cash, 2), "$")
 
 elif cur == 2:
     page_eur = requests.get(EUR, headers=headers)
@@ -21,14 +23,7 @@ elif cur == 2:
     convert_eur = soup_eur.findAll('font', {'color': 'Red'})
     res_eur = convert_eur[0].text
     final_eur = float(res_eur)
-else:
-    ()
-
-if cur == 1:
-    cash = money / final_usd
-    print("Ваши рубли в долларах:", round(cash, 2), "$")
-elif cur == 2:
     cash = money / final_eur
     print("Ваши рубли в евро:", round(cash, 2), '€')
 else:
-    print("Error")
+    ('Error')
